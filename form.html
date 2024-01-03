@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="Form.css">
+</head>
+
+<body>
+    <br>
+    <br>
+    <br>
+    <center>
+        <div>
+            <table class="table">
+            <tr>
+                <th>Login</th>
+            </tr>
+            <tr>
+                <td>User Name:</td>
+                
+                <td><input type="text" id="name_log" placeholder="UserName"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" id="pass_log" placeholder="Password"></td>
+            </tr>
+        </table>
+        <button type="button" onclick=" signin()" class="buttons">Login</button>
+        <br>
+        <br>
+        <button type="button" class="buttons">Forget Password</button>
+        <br>
+        <br>
+        <button type="button" id="signup-log"> sign up</button>
+        </div>
+        <br>
+        <br><br><br>
+        <div>
+            <table class="table">
+            <tr>
+                <th>Forget Password</th>
+            </tr>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" id="name_f"></td>
+            </tr>
+            <tr>
+                <td>New Password:</td>
+                <td><input type="password" id="pass_f"></td>
+            </tr>
+        </table>
+        <button type="button" onclick="forget()" class="buttons">Update</button>
+        </div>
+<br><br><br><br>
+        <div>
+            <table class="table">
+            <tr>
+                <th>Sign Up</th>
+            </tr>
+            <tr>
+                <td>Username:</td>
+                <td><input type="text" id="name_up" placeholder="Username"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" id="passup" placeholder="Password"></td>
+            </tr>
+            <tr>
+                <td>Age:</td>
+                <td><input type="text" id="age" placeholder="Age"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td><label>female</label> <input type="radio" name="gender"> <label>male</label> <input type="radio" name="gender"></td>
+            </tr>
+          <tr>
+            <td>Phone Number:</td>
+            <td><input type="text" id="Phone" placeholder="Phone number"</td>
+          </tr>
+        </table>
+        <button type="button" onclick="signup()" class="buttons">SignUp</button>
+        </div>
+        <br><br><br>
+       
+        
+       
+    </center>
+    <script src="Form.js"></script>
+</body>
+</html>
